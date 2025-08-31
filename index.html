@@ -14,10 +14,37 @@
 </head>
 <body>
 
-  <div>
-    <a href="navigation.html"></a>"
-  </div>
-
+<!-- ======= HEADER PRINCIPAL ======= -->
+<header class="topbar">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html#home" class="brand">
+          <img src="assets/images/LogotipocomNome.png" alt="Barros & Caldeira" style="height: 44px; width: auto;">
+        </a>
+        <div class="nav" id="main-nav">
+          <a href="index.html">Ínicio</a>
+          <a href="index.html#servicos">Serviços</a>
+          <a href="pages/equipe.html">Colaboradores</a>
+            <div class="cta-actions">
+          <a class="btn" class="btn" href="pages/contato.html">Contratar os serviços</a>
+        </div>
+        </div>
+        <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+      <!-- Menu mobile -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html#sobre" class="mobile-menu-item">Sobre</a>
+        <a href="index.html#servicos" class="mobile-menu-item">Serviços</a>
+        <a href="pages/equipe.html" class="mobile-menu-item">Equipe</a>
+        <a href="pages/contato.html" class="mobile-menu-item">Contato</a>
+      
+      </div>
+    </div>
+  </header>
   <div class="main-content">
     <!-- ======= HERO ======= -->
   <section id="home" class="hero">
@@ -277,8 +304,21 @@
             </svg>
           </div>
           <div class="process-content">
-            <h4>Manifestações e defesas</h4>
-            <p>Elaboração de planilhas, notas explicativas e críticas técnicas para impugnações, contestações e contrarrazões.</p>
+            <h4>Contratos de compra e venda</h4>
+            <p>Elaboração de contratos personalizados, claros e seguros, garantindo os direitos e deveres de todas as partes envolvidas.</p>
+          </div>
+        </article>
+
+          <article class="process-card">
+          <div class="process-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M6 4h12v4H6z"/>
+              <path d="M6 10h12v10H6z"/>
+            </svg>
+          </div>
+          <div class="process-content">
+            <h4>Cessão de Direitos Hereditários</h4>
+            <p>Assessoria na transferência legal de direitos hereditários, garantindo segurança jurídica e clareza para todas as partes envolvidas no processo.</p>
           </div>
         </article>
         
@@ -289,8 +329,8 @@
             </svg>
           </div>
           <div class="process-content">
-            <h4>Cumprimentos de sentenças</h4>
-            <p>Liquidação, atualização e conferência de valores para execução e cumprimento de decisão judicial.</p>
+            <h4>Contratos de Doação e Permuta</h4>
+            <p>Elaboração de contratos de doação e permuta, assegurando que os termos acordados entre as partes sejam claros, justos e juridicamente válidos.</p>
           </div>
         </article>
         
@@ -317,6 +357,18 @@
           <div class="process-content">
             <h4>Negociações e acordos</h4>
             <p>Análise e revisão de cálculos para subsidiar tratativas extrajudiciais e judiciais.</p>
+          </div>
+        </article>
+
+ <article class="process-card">
+          <div class="process-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M4 7h16M4 12h10M4 17h16"/>
+            </svg>
+          </div>
+          <div class="process-content">
+            <h4>Outros</h4>
+            <p>Elaboração de contratos de inventário, dação em pagamento, renúbcia de herança, emancipação, pacto antenupcial e entre outros.</p>
           </div>
         </article>
       </div>
@@ -462,7 +514,7 @@
             </div>
         </div>
         <div class="cta-actions">
-          <a class="btn" class="btn" href="./orcamento.html">Solicitar orçamento</a>
+          <a class="btn" class="btn" href="pages/contato.html">Solicitar orçamento</a>
         </div>
       </div>
     </div>
@@ -475,14 +527,14 @@
       <div class="footer-content">
         <div class="footer-brand">
           <div class="brand">
-            <img src="assets/images/LogotipocomNome.png" alt="Barros & Caldeira" style="height: 44px; width: auto;">
+            <img src="assets/images/Logotipo.png" alt="Barros & Caldeira" style="height: 44px; width: auto;">
           </div>
           <p class="footer-description">
-            Barros & Caldeira é referência nacional em cálculos cíveis, atualização monetária, revisão de contratos e consultoria jurídica especializada. Nossa equipe multidisciplinar atua com rigor técnico, ética e total transparência, apoiando advogados, empresas e clientes em demandas judiciais e extrajudiciais.<br><br>
+            Barros & Caldeira trabalha com atualização monetária, revisão de contratos e consultoria jurídica especializada. Nossa equipe multidisciplinar atua com rigor técnico, ética e total transparência, apoiando advogados, empresas e clientes em demandas judiciais e extrajudiciais.<br><br>
 
             <strong>Principais diferencias:</strong>
             <ul class="footer-list">
-              <li>Elaboração de petições, manifestações e contestações.</li>
+              <li>Elaboração de petições, contratos, manifestações e contestações.</li>
               <li>Equipe formada por especialistas em cálculos judiciais e extrajudiciais.</li>
               <li>Atualização constante conforme legislação e jurisprudência</li>
               <li>Suporte técnico para advogados, departamentos jurídicos e peritos</li>
@@ -496,15 +548,16 @@
           <div class="footer-section">
             <h4>Navegação</h4>
             <ul>
-              <li><a href="index.html#sobre">Sobre</a></li>
+              <li><a href="index.html#sobre">Ínicio</a></li>
               <li><a href="index.html#servicos">Serviços</a></li>
-              <li><a href="index.html#atuacao">Como atuamos</a></li>
+              <li><a href="pages/equipe.html">Colaboradores</a></li>
               <li><a href="pages/contato.html">Contato</a></li>
             </ul>
           </div>
           <div class="footer-section">
             <h4>Serviços principais</h4>
             <ul>
+              <li>Contratos</li>
               <li>Petições Iniciais</li>
               <li>Cálculos de atualização monetárias</li>
               <li>Cálculo de juros moratórios e compensatórios</li>
@@ -514,7 +567,7 @@
       </div>
       
       <div class="footer-bottom">
-        <p class="copyright">&copy; 2025 Barros & Caldeira. Todos os direitos reservados.</p>
+        <p class="copyright">&copy; 2025 Barros & Caldeira. Todos os direitos reservados. CNPJ 00.000 000 0000-00</p>
       </div>
     </div>
   </footer>
