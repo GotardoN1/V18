@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Solicitar Orçamento - Barros & Caldeira</title>
+  <meta name="description" content="Solicite um orçamento personalizado para seus cálculos jurídicos." />
+  <meta property="og:title" content="Solicitar Orçamento - Barros & Caldeira" />
+  <meta property="og:description" content="Formulário para solicitação de orçamento personalizado." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#244346" />
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23244346'/><text x='50' y='58' font-size='58' text-anchor='middle' fill='%23c7bbb5' font-family='Georgia, serif'>BC</text></svg>">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- ======= HEADER ======= -->
+  <header class="topbar">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html#home" class="brand" aria-label="Página inicial">
+          <div class="brand-logo" aria-hidden="true"><span>BC</span></div>
+          <span>Barros & Caldeira</span>
+        </a>
+        <div class="nav" id="main-nav">
+          <a href="V16/index.html">Ínicio</a>
+          <a href="pages/equipe.html">Colaboradores</a>
+          <a href="pages/contato.html">Contato</a>
+        </div>
+        <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+      <!-- Menu mobile -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html#sobre" class="mobile-menu-item">Sobre</a>
+        <a href="index.html#servicos" class="mobile-menu-item">Serviços</a>
+        <a href="equipe.html" class="mobile-menu-item">Equipe</a>
+        <a href="contato.html" class="mobile-menu-item">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <!-- ======= HERO ORÇAMENTO ======= -->
+  <section class="hero-page">
+    <div class="container">
+      <div class="hero-page-content">
+        <h1>Solicitar Orçamento</h1>
+        <p>Preencha o formulário abaixo e receba uma proposta personalizada para seu caso.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FORMULÁRIO DE ORÇAMENTO ======= -->
+  <section class="section">
+    <div class="container">
+      <div class="orcamento-info">
+        <div class="info-card">
+          <h3>Como funciona nosso orçamento:</h3>
+          <p>O orçamento é elaborado mediante alguns dias de prazo, após reunião marcada online onde entenderemos seu caso específico. Isso nos permite oferecer a melhor solução técnica e um valor justo para seu projeto.</p>
+          
+          <div class="processo-steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Envio do formulário</h4>
+                <p>Você preenche o formulário com detalhes do seu caso</p>
+              </div>
+            </div>
+            
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Reunião online</h4>
+                <p>Agendamos uma videoconferência para entender melhor suas necessidades</p>
+              </div>
+            </div>
+            
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Proposta personalizada</h4>
+                <p>Enviamos um orçamento detalhado em alguns dias úteis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="orcamento-form-container">
+        <div class="contact-form-large">
+          <form class="form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefone">Telefone *</label>
+                <input type="tel" id="telefone" name="telefone" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="empresa">Empresa/Escritório</label>
+                <input type="text" id="empresa" name="empresa">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="assunto">Tipo de cálculo *</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione o tipo de cálculo</option>
+                <option value="precatorios">Atualização de precatórios</option>
+                <option value="contratuais">Cálculos contratuais</option>
+                <option value="pensoes">Cálculo de pensões</option>
+                <option value="imobiliarios">Cálculos imobiliários</option>
+                <option value="revisionais">Revisionais (FGTS, PIS/PASEP, URV)</option>
+                <option value="danos">Danos morais e materiais</option>
+                <option value="lucros">Lucros cessantes</option>
+                <option value="outros">Outros</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="urgencia">Prazo desejado</label>
+              <select id="urgencia" name="urgencia">
+                <option value="">Selecione o prazo</option>
+                <option value="normal">Normal (até 15 dias)</option>
+                <option value="rapido">Rápido (até 7 dias)</option>
+                <option value="urgente">Urgente (até 3 dias)</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="mensagem">Descrição detalhada do caso *</label>
+              <textarea id="mensagem" name="mensagem" rows="6" placeholder="Descreva seu caso com o máximo de detalhes possível. Inclua informações sobre valores, datas, índices aplicáveis, documentos disponíveis, etc." required></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label for="documentos">Documentos disponíveis</label>
+              <textarea id="documentos" name="documentos" rows="3" placeholder="Liste os documentos que você possui relacionados ao caso (contratos, sentenças, planilhas, etc.)"></textarea>
+            </div>
+            
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="aceito" name="aceito" required>
+                <span class="checkmark"></span>
+                Aceito os termos de privacidade e autorizo o contato para discussão do caso
+              </label>
+            </div>
+            
+            <button type="submit" class="btn btn-full btn-large">Enviar solicitação de orçamento</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="brand">
+            <div class="brand-logo"><span>BC</span></div>
+            <span>Barros & Caldeira</span>
+          </div>
+          <p class="footer-description">Escritório especializado em cálculos cíveis e consultoria jurídica, oferecendo precisão técnica e transparência em cada projeto.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-section">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="index.html#sobre">Sobre</a></li>
+              <li><a href="index.html#servicos">Serviços</a></li>
+              <li><a href="index.html#atuacao">Como atuamos</a></li>
+              <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Serviços principais</h4>
+            <ul>
+              <li>Atualização de precatórios</li>
+              <li>Cálculos contratuais</li>
+              <li>Cálculo de pensões</li>
+              <li>Revisionais</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2024 Barros & Caldeira. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  <script>
+    // Inicializar menu mobile
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuBtn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', function() {
+          menuBtn.classList.toggle('active');
+          mobileMenu.classList.toggle('active');
+        });
+
+        // Fecha o menu ao clicar em um item
+        const mobileMenuItems = document.querySelectorAll('.mobile-menu-item');
+        mobileMenuItems.forEach(item => {
+          item.addEventListener('click', function() {
+            menuBtn.classList.remove('active');
+            mobileMenu.classList.remove('active');
+          });
+        });
+
+        // Fecha o menu ao clicar fora dele
+        document.addEventListener('click', function(event) {
+          if (!menuBtn.contains(event.target) && !mobileMenu.contains(event.target)) {
+            menuBtn.classList.remove('active');
+            mobileMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
+
